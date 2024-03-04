@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: lightskyblue;
 }
 
@@ -22,6 +22,7 @@ body {
   width: 400px;
   height: 110px;
   background-color: #fff;
+  margin: .25rem;
   padding: 28px 32px;
   overflow: hidden;
   border-radius: 18px;
@@ -178,5 +179,11 @@ body {
   to {
     scale: 1;
     opacity: 1;
+  }
+}
+
+@media (max-width: 410px) {
+  .container {
+    margin: .5rem;
   }
 }
