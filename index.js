@@ -54,8 +54,12 @@ search.addEventListener('click', () => {
                     image.src = 'images/mist.png';
                     break;
 
+                case 'Smoke':
+                    image.src = 'images/smoke.svg';
+                    break;
+
                 default:
-                    image.src = '';
+                    image.src = 'images/404.png';
             }
 
             temperature.innerHTML = `${parseInt(json.main.temp)}<span>°C</span>`;
@@ -72,7 +76,7 @@ search.addEventListener('click', () => {
 
         });
 
-        
+
 
 
 });
